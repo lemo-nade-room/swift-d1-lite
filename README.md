@@ -3,6 +3,32 @@
 Cloudflare D1 を ReadModel として扱うための軽量 ORM です。Swift から D1 の raw
 クエリを実行し、マクロによるテーブル定義やフォーマットスタイルによる型変換を提供します。
 
+## Notice
+
+This repository is the original and official repository of `swift-d1-lite`.
+
+- `swift-d1-lite` is a **Swift Package for macOS**.
+- It is intended to be used via **Swift Package Manager**.
+- I do **not** provide any official downloadable application, installer, or binary release for this project.
+- I do **not** maintain, endorse, or support any third-party copies, mirrors, documentation sites, or download links.
+- If a third-party repository or website contains my name, copyright notice, or Git history, that does **not** mean I maintain, approve, or support it.
+
+For the latest source code and correct usage, please refer only to this repository.
+
+---
+
+## 注意
+
+このリポジトリが `swift-d1-lite` の原著者による公式リポジトリです。
+
+- `swift-d1-lite` は **macOS 向けの Swift Package** です。
+- 利用は **Swift Package Manager** を前提としています。
+- このプロジェクトについて、公式のアプリ配布・インストーラ配布・バイナリ配布は行っていません。
+- 第三者によるコピー、ミラー、ドキュメントサイト、ダウンロードリンクについて、作者は関与・保証・サポートを行いません。
+- 第三者のリポジトリやサイトに作者名、著作権表示、Git の履歴が含まれていても、それは作者がその公開物を保守・承認・サポートしていることを意味しません。
+
+最新のソースコードと正しい利用方法は、このリポジトリのみを参照してください。
+
 ## 特徴
 
 - `@D1Table` / `@D1Column` によるテーブル定義の簡略化
